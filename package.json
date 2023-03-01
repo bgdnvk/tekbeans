@@ -2,7 +2,7 @@
   "name": "tekbeans",
   "version": "0.0.1",
   "description": "the horrors of spring finally on NodeJS with TS",
-  "main": "index.js",
+  "main": "index.ts",
   "dependencies": {
     "reflect-metadata": "^0.1.13"
   },
