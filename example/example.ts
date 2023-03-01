@@ -1,4 +1,4 @@
-import { tekbean, Container } from "../src/main";
+import { tekbean, IoContainer } from "../src/main";
 
 class Example{
 
@@ -25,6 +25,6 @@ class InjectedBean{
 }
 
 // use the container to track the DIs
-const container = new Container();
+const container = new IoContainer();
 const injectedBean = container.resolve(InjectedBean);
 injectedBean.doSomething();

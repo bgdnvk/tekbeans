@@ -7,7 +7,7 @@ export const tekbean = (): ClassDecorator => {
   };
 };
 
-export class Container {
+export class IoContainer {
   // The private instances property will be used to store instances of classes that have already been created.
   private instances: Map<Function, any> = new Map();
 

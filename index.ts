@@ -1,3 +1,3 @@
-import { tekbean, Container } from "./src/main";
+import { tekbean, IoContainer } from "./src/main";
 
-export default { tekbean, Container }
+export default { tekbean, IoContainer }
